@@ -166,18 +166,19 @@
 }
 
 .reply input{
-    padding : 12px;
+    padding : 10px;
     width : 100%;
     border:var(--main-border);
-    border-radius: 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
     transition: all 0.3s;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button{
     position: absolute;
-    right: -3px;
-    top: 2px;   
+    right: 3px;
+    top: 3px;   
 }
 
 .reply__column:last-child > i{

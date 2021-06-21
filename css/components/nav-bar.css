@@ -66,3 +66,12 @@
 .nav__btn:last-child{
     animation-delay:0.3s;
 }
+
+.badge--ellipsis{
+    width : 5px;
+    height : 5px;
+    border-radius: 2.5px;   
+    position: absolute;
+    right : -5px;
+    top : -10px;
+}
